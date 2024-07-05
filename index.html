@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New todo</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="todo__wrapper">
+        <div class="todo">
+            <div class="todo__spisok">
+            </div>
+            <div class="todo__functionality">
+                <div class="todo__add">
+                    <textarea class="todo__input" type="text" placeholder="Пишите тут..."></textarea>
+                </div>
+                <div class="todo__colour">
+                    <div class="todo__colour__title">Выберите цвет текста: <span class="colour__choose">белый</span></div>
+                    <div class="todo__colours">
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="orange"></div>
+                        <div class="yellow"></div>
+                        <div class="blue"></div>
+                        <div class="violet"></div>
+                        <div class="green"></div>
+                    </div>
+                    <div class="todo__button">Добавить</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js" type="module"></script>
+<script src="./js/add.js" type="module"></script>
+<script src="./js/colour.js" type="module"></script>
+</html>
